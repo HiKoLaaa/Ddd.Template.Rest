@@ -6,10 +6,10 @@
     "Rest",
     "DDD"
   ],
-  "identity": "DDD.Template",
+  "identity": "Ddd.Template",
   "name": "Rest DDD application",
   "shortName": "dddrest",
-  "sourceName": "DDD.Template",
+  "sourceName": "Ddd.Template",
   "tags": {
     "language": "C#",
     "type": "solution"
