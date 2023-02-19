@@ -9,10 +9,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\DDD.Template.Api.Rest\DDD.Template.Api.Rest.csproj" />
-        <ProjectReference Include="..\DDD.Template.Application\DDD.Template.Application.csproj" />
-        <ProjectReference Include="..\DDD.Template.Infrastructure\DDD.Template.Infrastructure.csproj" />
-        <ProjectReference Include="..\DDD.Template.Persistence\DDD.Template.Persistence.csproj" />
+        <ProjectReference Include="..\DDD.Template.Api.Rest\DDD.Template.Api.Rest.csproj"/>
+        <ProjectReference Include="..\DDD.Template.Application\DDD.Template.Application.csproj"/>
+        <ProjectReference Include="..\DDD.Template.Infrastructure\DDD.Template.Infrastructure.csproj"/>
+        <ProjectReference Include="..\DDD.Template.Persistence\DDD.Template.Persistence.csproj"/>
     </ItemGroup>
 
 </Project>

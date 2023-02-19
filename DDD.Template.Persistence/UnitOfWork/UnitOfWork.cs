@@ -7,14 +7,17 @@ internal class UnitOfWork : IUnitOfWork
 {
     private readonly DddTemplateDbContext _dbContext;
 
-    public IExampleRepository ExampleRepository { get; }
-
     public UnitOfWork(DddTemplateDbContext dbContext, IExampleRepository exampleRepository)
     {
         _dbContext = dbContext;
         ExampleRepository = exampleRepository;
     }
 
+    public IExampleRepository ExampleRepository { get; }
 
-    public Task SaveAsync() => _dbContext.SaveChangesAsync();
+
+    public Task SaveAsync()
+    {
+        return _dbContext.SaveChangesAsync();
+    }
 }

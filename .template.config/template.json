@@ -1,13 +1,43 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Nikolay Kreshchuk",
-  "classifications": [ "Web", "Rest", "DDD" ],
+  "classifications": [
+    "Web",
+    "Rest",
+    "DDD"
+  ],
   "identity": "DDD.Template",
   "name": "Rest DDD application",
-  "shortName": "dddtemplate",
+  "shortName": "dddrest",
   "sourceName": "DDD.Template",
   "tags": {
     "language": "C#",
     "type": "solution"
+  },
+  "sources": [
+    {
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*"
+      ]
+    }
+  ],
+  "preferNameDirectory": true,
+  "symbols": {
+    "AppShortName": {
+      "type": "derived",
+      "valueSource": "name",
+      "valueTransform": "ValueAfterLastDot",
+      "replaces": "DddTemplate",
+      "fileRename": "DddTemplate"
+    }
+  },
+  "forms": {
+    "ValueAfterLastDot": {
+      "identifier": "replace",
+      "pattern": "^.*\\.(?=[^\\.]+$)",
+      "replacement": ""
+    }
   }
 }

@@ -1,12 +1,11 @@
-namespace SimpleBotScenario.Persistence;
+namespace DDD.Template.Persistence;
 
-using DDD.Template.Persistence;
 using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
 [UsedImplicitly]
-public class SimpleBotScenarioDbContextFactory : IDesignTimeDbContextFactory<DddTemplateDbContext>
+public class DddTemplateDbContextFactory : IDesignTimeDbContextFactory<DddTemplateDbContext>
 {
     public DddTemplateDbContext CreateDbContext(string[] args)
     {
