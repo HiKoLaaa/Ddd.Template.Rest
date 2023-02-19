@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Nikolay Kreshchuk",
+  "classifications": [ "Web", "Rest", "DDD" ],
+  "identity": "DDD.Template",
+  "name": "Rest DDD application",
+  "shortName": "dddtemplate",
+  "sourceName": "DDD.Template",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  }
+}
