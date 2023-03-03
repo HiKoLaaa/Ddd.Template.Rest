@@ -1,7 +1,7 @@
 namespace Ddd.Template.Persistence.UnitOfWork;
 
-using Domain.Services.Repositories;
-using Domain.Services.UnitOfWork;
+using Application.Services.Repositories;
+using Application.Services.UnitOfWork;
 
 internal class UnitOfWork : IUnitOfWork
 {

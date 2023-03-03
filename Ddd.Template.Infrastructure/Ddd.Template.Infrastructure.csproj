@@ -8,12 +8,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
     </ItemGroup>
 
-
     <ItemGroup>
-        <ProjectReference Include="..\Ddd.Template.Domain\Ddd.Template.Domain.csproj"/>
+      <ProjectReference Include="..\Ddd.Template.Application\Ddd.Template.Application.csproj" />
     </ItemGroup>
 
 </Project>

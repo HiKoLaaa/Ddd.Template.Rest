@@ -1,6 +1,6 @@
 namespace Ddd.Template.Infrastructure;
 
-using Domain.Services;
+using Application.Services;
 using Examples;
 using Microsoft.Extensions.DependencyInjection;
 

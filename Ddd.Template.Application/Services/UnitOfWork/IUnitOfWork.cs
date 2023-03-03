@@ -1,4 +1,4 @@
-namespace Ddd.Template.Domain.Services.UnitOfWork;
+namespace Ddd.Template.Application.Services.UnitOfWork;
 
 using Repositories;
 

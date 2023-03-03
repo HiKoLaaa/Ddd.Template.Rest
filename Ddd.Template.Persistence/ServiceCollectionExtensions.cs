@@ -1,7 +1,7 @@
 namespace Ddd.Template.Persistence;
 
-using Domain.Services.Repositories;
-using Domain.Services.UnitOfWork;
+using Application.Services.Repositories;
+using Application.Services.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

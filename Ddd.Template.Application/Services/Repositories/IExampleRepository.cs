@@ -1,6 +1,6 @@
-namespace Ddd.Template.Domain.Services.Repositories;
+namespace Ddd.Template.Application.Services.Repositories;
 
-using Entities;
+using Domain.Entities;
 
 public interface IExampleRepository
 {

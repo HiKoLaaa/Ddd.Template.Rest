@@ -1,6 +1,6 @@
-namespace Ddd.Template.Domain.Services;
+namespace Ddd.Template.Application.Services;
 
-using Entities;
+using Domain.Entities;
 
 public interface IExampleService
 {

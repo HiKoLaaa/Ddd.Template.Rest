@@ -1,7 +1,7 @@
 namespace Ddd.Template.Persistence.Repositories;
 
+using Application.Services.Repositories;
 using Domain.Entities;
-using Domain.Services.Repositories;
 
 internal class ExampleRepository : IExampleRepository
 {

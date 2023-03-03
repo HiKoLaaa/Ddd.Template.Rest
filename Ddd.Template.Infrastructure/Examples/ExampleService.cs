@@ -1,7 +1,7 @@
 namespace Ddd.Template.Infrastructure.Examples;
 
+using Application.Services;
 using Domain.Entities;
-using Domain.Services;
 
 internal class ExampleService : IExampleService
 {
